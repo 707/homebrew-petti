@@ -1,26 +1,26 @@
 class Petti < Formula
   desc "Terminal UI for browsing installed packages across package managers"
   homepage "https://github.com/707/petti"
-  version "0.6.4"
+  version "0.6.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/707/petti/releases/download/v#{version}/petti_#{version}_darwin_arm64.tar.gz"
-      sha256 "e5c56c4db4381a42629761f7ac650ef681a5cb851158ce1c76de8a8c82394179"
+      url "https://github.com/707/petti/releases/download/v#{version}/petti_0.6.5_darwin_arm64.tar.gz"
+      sha256 "6d17544fc8283f6b6d79d1fc67c141442fd11f889b5caf0229600b3f5ecfa6a1"
     else
-      url "https://github.com/707/petti/releases/download/v#{version}/petti_#{version}_darwin_amd64.tar.gz"
-      sha256 "647939e01f0c4c3ce06f7e16408365541ab0bc03a971139ffce2788e01409605"
+      url "https://github.com/707/petti/releases/download/v#{version}/petti_0.6.5_darwin_amd64.tar.gz"
+      sha256 "f9f765b559c42fd1fd62a9c619a597be5e3bb2843b6339cd3c2bf663aa24a64d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/707/petti/releases/download/v#{version}/petti_#{version}_linux_arm64.tar.gz"
-      sha256 "4f500a7af354d0949d4f6e9fc49be0952d1dce056ad73dbf2d8749d0c9dcfbca"
+      url "https://github.com/707/petti/releases/download/v#{version}/petti_0.6.5_linux_arm64.tar.gz"
+      sha256 "6798cd64b0ff09bb50561af5dc64e6796d2116c66586ec722f90745bb1d097a1"
     else
-      url "https://github.com/707/petti/releases/download/v#{version}/petti_#{version}_linux_amd64.tar.gz"
-      sha256 "e28a6feb948c5bd390f5c1ed331f1439370dbb5e0042fcf89173f4216073bef1"
+      url "https://github.com/707/petti/releases/download/v#{version}/petti_0.6.5_linux_amd64.tar.gz"
+      sha256 "c3a42f8df93c03a7ef7402bcb833c540c1e60d096ee9fd04b31baa5ac2525350"
     end
   end
 
